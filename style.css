@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Pixel";
+  src: url(./font/PublicPixel-0W5Kv.ttf);
+}
+html {
+}
+body {
+  font-family: "Pixel", sans-serif;
+  background-color: teal;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  box-shadow: 5px;
+}
